@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\LED Cube">
+      <UniqueIdentifier>{022cf569-b2f0-4ebf-bc99-15d6c4ce340d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LED Cube\Abstract">
+      <UniqueIdentifier>{bfb13b30-a484-4c61-92e3-0e98c4b5431e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LED Cube">
+      <UniqueIdentifier>{d697c588-8141-4bdc-a6af-5e88755e7f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LED Cube\Abstract">
+      <UniqueIdentifier>{7df7cce7-5064-41d4-8128-74511f8dfe93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IO">
+      <UniqueIdentifier>{a41a4415-763e-4bef-9c61-7b46fbbe8985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IO\Export">
+      <UniqueIdentifier>{20d0a611-80d7-4f7b-a172-7d0511e2a9aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IO\Export\Abstract">
+      <UniqueIdentifier>{3b5e0d6b-8092-42b0-8bcd-b22f12e04406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO">
+      <UniqueIdentifier>{2ebb368c-7388-46f2-b403-5d4a94bcd149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO\Export">
+      <UniqueIdentifier>{6e380036-13a2-4822-9718-367b9798c124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO\Import">
+      <UniqueIdentifier>{b7822d4f-7bfc-4bc2-a9f4-61d6723f155c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeEventReceiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LCube.cpp">
+      <Filter>Source Files\LED Cube\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduinoCube4Generator.cpp">
+      <Filter>Source Files\IO\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="OnOffCube4.cpp">
+      <Filter>Source Files\LED Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="RGBCube4.cpp">
+      <Filter>Source Files\LED Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="RGB4Generator.cpp">
+      <Filter>Source Files\IO\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Arduino444Importer.cpp">
+      <Filter>Source Files\IO\Import</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainbow444RGBImporter.cpp">
+      <Filter>Source Files\IO\Import</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3dledcubeint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeEventReceiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LCodeGenerator.h">
+      <Filter>Header Files\IO\Export\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="LCube.h">
+      <Filter>Header Files\LED Cube\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="OnOffCube4.h">
+      <Filter>Header Files\LED Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduinoCube4Generator.h">
+      <Filter>Header Files\IO\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBCube4.h">
+      <Filter>Header Files\LED Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="RGB4Generator.h">
+      <Filter>Header Files\IO\Export</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

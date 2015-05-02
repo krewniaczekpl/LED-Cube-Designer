@@ -1,0 +1,12 @@
+3D LED Cube Interface/libraries/
+3D LED Cube Interface/Debug/
+3D LED Cube Interface/Release/
+Debug/
+Release/
+3D LED Cube Interface.sdf
+3D LED Cube Interface.opensdf
+3D LED Cube Interface.suo
+ipch/
+*.dll
+3D LED Cube Interface/export/
+3D LED Cube Interface/fonts/
