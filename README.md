@@ -8,5 +8,8 @@ http://www.instructables.com/id/4x4x4-LED-Cube-Arduino/#step0
 It also works with the Rainbowduino RGB Cube <br />
 http://www.seeedstudio.com/depot/Rainbow-Cube-kit-RGB-4X4X4-Rainbowduino-Compatible-p-596.html
 
+# Screenshot
+![Screenshot](/screenshot.png?raw=true)
+
 # License
 GPL
