@@ -1,3 +1,9 @@
+/*
+	Created by Panagiotis Roubatsis
+	Description: Used to design the 4x4x4
+	Rainbowduino RGB cube.
+*/
+
 #ifndef RGB_CUBE_4_H
 #define RGB_CUBE_4_H
 

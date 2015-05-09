@@ -1,3 +1,9 @@
+/*
+	Created by Panagiotis Roubatsis
+	Description: An application that allows the user
+	to design an animation for an LED cube.
+*/
+
 #include "3dledcubeint.h"
 #include "LCube.h"
 #include "OnOffCube4.h"
@@ -52,6 +58,7 @@ int main(){
 
 	LCube* ledCube = resolveCubeType(sceneMgr, cubeChoice);
 
+	//Used to rotate the cube
 	float rotationY = 0.0f;
 	float rotationZ = 0.0f;
 

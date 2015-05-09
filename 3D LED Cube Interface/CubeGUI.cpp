@@ -6,14 +6,12 @@ CubeGUI::CubeGUI(gui::IGUIEnvironment* env, LCube* cube) : _env(env), _ledCube(c
 	_cubeData.setLedCube(cube);
 	_lastFrame = 0;
 
+	//Make sure to place a bitmap font in this folder
 	env->getSkin()->setFont(env->getFont("fonts/arial.xml"));
 
 	gui::IGUITabControl* tabs = env->addTabControl(core::recti(10, 10, 300, 590), 0, true, true);
 	gui::IGUITab* optionsTab = tabs->addTab(L"Options");
 	gui::IGUITab* exportTab = tabs->addTab(L"Export/Import");
-
-	//gui::IGUIStaticText* optionsText = env->addStaticText(L"3D LED Cube Options", core::recti(10, 0, 150, 50), false, true, settingsTab);
-	//optionsText->setOverrideColor(video::SColor(255,255,255, 255));
 
 	//Options
 	env->addButton(core::recti(10, 10, 250, 60), optionsTab, ToggleShowHideBtn, L"Show/Hide Off LEDs");

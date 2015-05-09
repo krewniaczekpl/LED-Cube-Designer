@@ -16,6 +16,7 @@ LCube::LCube(scene::ISceneManager* sceneMgr) : _sceneMgr(sceneMgr), _noLightVisi
 	_sceneMgr->addLightSceneNode(0, core::vector3df(CAM_X, 0, 0), video::SColorf(1,1,1), 10);
 
 	int ledId = 0;
+
 	//Create cube of spheres
 	for(int y = LED_LAYERS / 2; y > -LED_LAYERS / 2; y--){
 

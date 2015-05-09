@@ -1,3 +1,9 @@
+/*
+	Created by Panagiotis Roubatsis
+	Description: Generates arduino code
+	for the 4x4x4 standard LED cube.
+*/
+
 #ifndef ARDUINO_CUBE_4_GENERATOR_H
 #define ARDUINO_CUBE_4_GENERATOR_H
 
@@ -16,9 +22,9 @@ struct CompiledCubeFrame{
 //Code Generator for 4x4x4 OnOff Cube
 class ArduinoCube4Generator : public LCodeGenerator{
 private:
-		std::vector<CompiledCubeFrame> _frames;
-		
-		 void compileAndAddFrame(CubeFrame frame);
+	std::vector<CompiledCubeFrame> _frames;
+	
+	void compileAndAddFrame(CubeFrame frame);
 public:
 	ArduinoCube4Generator(CubeData* data);
 	void arrayWrite(std::ostream& out);

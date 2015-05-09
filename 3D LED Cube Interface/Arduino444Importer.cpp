@@ -13,6 +13,7 @@ std::vector<int> getFrameIterations(std::ifstream& file){
 		std::string line;
 		getline(file, line);
 
+		//Get the number between the drawBuffer(int) to get the 'iterations' value
 		if(std::regex_search(line.begin(), line.end(), std::tr1::regex("drawBuffer\\(\\d.+\\)"))){
 			std::string iterStr = line.substr(line.find("(") + 1, line.find(")") - line.find("(") - 1);
 			frames.push_back(atoi(iterStr.c_str()));

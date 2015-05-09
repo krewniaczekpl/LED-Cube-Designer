@@ -1,3 +1,9 @@
+/*
+	Created by Panagiotis Roubatsis
+	Description: Used to design the 4x4x4
+	standard cube.
+*/
+
 #ifndef ON_OFF_CUBE_4_H
 #define ON_OFF_CUBE_4_H
 

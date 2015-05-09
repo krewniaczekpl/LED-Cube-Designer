@@ -1,3 +1,10 @@
+/*
+	Created by Panagiotis Roubatsis
+	Description: Base class that handles the basic
+	functionality of the on screen cube that is used
+	to design/animate the physical cube.
+*/
+
 #ifndef L_CUBE_H
 #define L_CUBE_H
 
@@ -15,11 +22,14 @@ enum{
 	C_LED_MAGENTA,
 	C_LED_ON	//Used if it is not an RGB Cube, otherwise only use the colours.
 };
+
+//Irrlicht IDs
 enum{
-	L_CUBE_ROOT = -10,
-	L_CUBE_ON = -20,
-	L_CUBE_OFF = -30
+	L_CUBE_ROOT = -10,	//Entire cube
+	L_CUBE_ON = -20,	//Parts of the cube that are not off
+	L_CUBE_OFF = -30	//Parts of the cube that are off
 };
+
 enum{
 	IMPORTER_444,
 	IMPORTER_444_RGB

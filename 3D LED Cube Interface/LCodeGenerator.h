@@ -1,3 +1,10 @@
+/*
+	Created by Panagiotis Roubatsis
+	Description: Abstract class to define the
+	items that need to be generated for a given
+	cube.
+*/
+
 #ifndef L_CODE_GENERATOR_H
 #define L_CODE_GENERATOR_H
 

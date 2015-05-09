@@ -1,3 +1,10 @@
+/*
+	Created by Panagiotis Roubatsis
+	Description: Handles events such as
+	keyboard key presses and mouse click events.
+	Handles gui events such as button clicks.
+*/
+
 #ifndef CUBE_EVENT_RECEIVER_H
 #define CUBE_EVENT_RECEIVER_H
 

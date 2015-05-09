@@ -1,3 +1,9 @@
+/*
+	Created by Panagiotis Roubatsis
+	Description: Generate aruino code for the
+	4x4x4 RGB LED cube using the Rainbowduino board.
+*/
+
 #ifndef RGB_4_GENERATOR_H
 #define RGB_4_GENERATOR_H
 

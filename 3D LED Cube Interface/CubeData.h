@@ -1,3 +1,11 @@
+/*
+	Created by Panagiotis Roubatsis
+	Description: Stores and handles all the data such as
+	the frames, and states of the cube. Also have an importing
+	function, it reads previously exported arduino code and allows you
+	to import the frames from it.
+*/
+
 #ifndef CUBE_DATA_H
 #define CUBE_DATA_H
 

@@ -1,3 +1,9 @@
+/*
+	Created by Panagiotis Roubatsis
+	Description: The GUI code for the side panel
+	to add frames, and export code.
+*/
+
 #ifndef CUBE_GUI_H
 #define CUBE_GUI_H
 
