@@ -11,5 +11,8 @@ http://www.seeedstudio.com/depot/Rainbow-Cube-kit-RGB-4X4X4-Rainbowduino-Compati
 # Screenshot
 ![Screenshot](/screenshot.png?raw=true)
 
+# Library
+Irrlicht
+
 # License
 GPL
