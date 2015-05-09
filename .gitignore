@@ -10,3 +10,5 @@ ipch/
 *.dll
 3D LED Cube Interface/export/
 3D LED Cube Interface/fonts/
+3D LED Cube Interface/header.txt
+*.py
